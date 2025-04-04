@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentTeacher">
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/touchImageView"
+        android:layout_width="383dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/harvann"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+    </com.ortiz.touchview.TouchImageView>
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="#9CE8E6E6"
+        android:text=" Teacher Updates  "
+        android:textColor="#E928CA"
+        android:textSize="27dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:text="This list of the 100 most
+common vocabulary words in English can be
+used as a reference for beginner English
+students. It's a good idea to master these
+words fully before trying to move on to
+less common words, since this is the vocabulary
+you will encounter most often. These are some of the
+used as a reference for beginner English
+students. It's a good idea to master these
+words fully before trying to move on to
+less common words, since this is the vocabulary
+you will encounter most often. These are some of the"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/touchImageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

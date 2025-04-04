@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Director Update"
+        android:id="@+id/director"/>
+    <item android:title="Teacher's Update"
+        android:id="@+id/teacher"/>
+    <item android:title="TpO Update"
+        android:id="@+id/tpo"/>
+    <item android:title="Result"
+        android:id="@+id/result"/>
+    <item android:title="Log out"
+        android:id="@+id/logout"/>
+
+
+
+</menu>
