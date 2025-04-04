@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "780728989381",
+    "project_id": "dewan-pannel",
+    "storage_bucket": "dewan-pannel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780728989381:android:70aa54f93ddd7c7f69e2ac",
+        "android_client_info": {
+          "package_name": "com.example.dewanpannel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJLh8iNjOA7yEdDvH-RvAHQpSPV9np4GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

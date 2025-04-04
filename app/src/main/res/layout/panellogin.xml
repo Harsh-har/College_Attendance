@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PANALACTIVITY.PanelLogin"
+    android:background="#6B2DE260">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="211dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/registationimage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Welcome To DVSIET"
+            android:textColor="#6B004112"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:background="@drawable/loginbackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="338dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/databackground"
+            android:ems="10"
+            android:hint="Enter Your Name"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textColorHint="#E6000000"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="338dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/databackground"
+            android:ems="10"
+            android:hint="Enter Your Email"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textColorHint="#E6000000"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/username" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="338dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/databackground"
+            android:ems="10"
+            android:hint="Enter Your Password"
+            android:textSize="16dp"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:textColorHint="#E6000000"
+            app:layout_constraintEnd_toEndOf="@+id/email"
+            app:layout_constraintStart_toStartOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+        <Spinner
+            android:id="@+id/Panel"
+            android:layout_width="338dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            tools:layout_editor_absoluteX="1dp"
+            android:paddingLeft="30dp"
+            android:autofillHints="name"
+            tools:layout_editor_absoluteY="495dp"
+            android:dropDownSelector="#E34CAF50"
+            android:background="@drawable/spiner_background"
+            app:layout_constraintEnd_toEndOf="@+id/password"
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toBottomOf="@+id/password" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="LogIn"
+
+            app:layout_constraintEnd_toEndOf="@+id/Panel"
+            app:layout_constraintStart_toStartOf="@+id/Panel"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Forgot Password?"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="@+id/Panel"
+            app:layout_constraintTop_toBottomOf="@+id/Panel" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
